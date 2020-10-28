@@ -74,7 +74,7 @@ export default () => {
     $('.subjectbox').prepend(`
       <div class="card card-body mb-4">
         <div class="bodtitle">
-          <p class="title-text">수강 과목 현황</p>
+          <p class="title-text" style="color:red">수강 과목 현황</p>
         </div>
         <table id="yes-deadline" style="width: 100%">
           <colgroup>
