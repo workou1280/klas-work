@@ -112,5 +112,12 @@
    ## 3.퀴즈,기타,과제 on/off
    <img width="60%" src='http://drive.google.com/uc?export=view&id=1kBo7TjpMbHGb5QHkT1mFFPXa5hzikDvh' /><br>
    1. 새롭게 만듬 : 달성하지 못한 퀴즈,기타,과제 만을 보여줌
-   
+
+## 개선된 기능 강의 main 홈에 추가된 기능
+   ## 1. 강의 숨기기 on/off
+   <img width="60%" src='http://drive.google.com/uc?export=view&id=15FE7Ay_S4DTMNDt7Du6IcnQrFFkmVnsf' /><br>
+   1. 개선/불편한 점 : 위와 같음 
+   ## 2. 강의 역순배열 on/off
+   <img width="60%" src='http://drive.google.com/uc?export=view&id=1j8yJY5nazSZr_wpWnEQdCmuoyCLGVOt9' /><br>
+   1. 새롭게 만듬 : 위와 같은 기능
   
