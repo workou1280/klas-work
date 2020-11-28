@@ -71,12 +71,14 @@
    
    ## 2.공지사항 버튼 구현
    <img width="60%" src='http://drive.google.com/uc?export=view&id=1e8uU9YLufknokxSNOoRP_LDj-Ua1BTp-' /><br>
+   <img width="60%" src='http://drive.google.com/uc?export=view&id=1RaYcua7FeILdqzaxWY2KzFEVntxSh3Vf' /><br>
    설명  
    1. 공지사항 버튼 : 클락하면 공지사항 최상단에 올라온 공지 1개를 내가 수강한 과목별로 렌더링함, 한 번 더 클릭하면 끌 수 있음
    2. 올아온 공지개수 : 최상단에 올라온 공지개수와 같은 날에 올라온 공지들을 포함하여 개수를 반환 ex)3개가 올라왔다면 3개가 뜸
    3. 날짜 : 최상단에 올라온 공지의 날짜를 렌더링
    4. 클릭기능 : 커서를 이용해서 날짜 공지개수 공지사항들을 클릭하면 각 과목별 공지사항으로 넘어감
-   5. 학기별 정보 불러오기 : 가끔 계절학기를 들으면 학교 웹이 계절학기를 메인으로 하기 때문에 지금 학기 정보를 불러오지 않는데 스케줄표에서 학기를 바꿔오더라도 바뀐 학기 정보에 따라 공지사항을 불러 올 수 있음                         
+   5. 학기별 정보 불러오기 : 가끔 계절학기를 들으면 학교 웹이 계절학기를 메인으로 하기 때문에 지금 학기 정보를 불러오지 않는데 스케줄표에서 학기를 바꿔오더라도 바뀐 학기 정보에 따라 공지사항을 불러 올 수 있음  
+  
    
    ## 3.학사일정 버튼 구현
    <img width="60%" src='http://drive.google.com/uc?export=view&id=1-XaVnD1hCHnFfvrhXCDJC-fe3U2ksk9p' /><br>
