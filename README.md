@@ -102,7 +102,7 @@
    
 ## 개선된 기능 강의 홈에 추가된 기능
    ## 1.강의 홈 강의 숨기기 on/off
-   <img width="60%" src='http://drive.google.com/uc?export=view&id=13DRzcjRd5jTYfSHAdw_CVnQytOsVBi9U' /><br>
+   <img width="60%"src='http://drive.google.com/uc?export=view&id=13DRzcjRd5jTYfSHAdw_CVnQytOsVBi9U' /><br>
    설명
    1. 기존 불편했던 점 : 기존에 다 들었던 강의만 지워지고 퀴즈나 과제가 남아 결국 아래로 내려야하는 불편함
    2. 개선 : 다들은 강의가 살아지는 것과 더불어 나머지 퀴즈 과제 기타 등을 모두 지움
