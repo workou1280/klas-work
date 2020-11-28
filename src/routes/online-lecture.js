@@ -40,9 +40,14 @@ export default () => {
       <div style="font-weight: bold; margin-top: 10px">추가된 기능</div>
       <div>- 2분 쿨타임 제거: 2분 쿨타임을 제거할 수 있습니다. 단, 동시에 여러 콘텐츠 학습을 하지 않도록 주의해 주세요.</div>
       <div>- 강의 숨기기: 진도율 100%인 강의를 숨길 수 있습니다.</div>
+      <div>- 강의 역순배열: 강의만 역순으로 배열</div>
+      <div>- 퀴즈,기타,과제: 강의를 제외하고 달성하지 못한 나머지 퀴즈,기타,과제 등을 보여줍니다.</div>
+      <div style="color: blue">- 주의 사항: 쿨타임 제거 버튼을 제외하고는 하나씩 사용해주세요.</div>
       <div style="margin-top: 20px">
         <button type="button" id="btn-cooltime" class="btn2 btn-learn">2분 쿨타임 제거</button>
         <button type="button" id="btn-hide-lecture" class="btn2 btn-gray">강의 숨기기 On / Off</button>
+        <button type="button" id="btn-reverse-lecture" class="btn2 btn-gray">강의 역순배열 On/ Off</button>
+        <button type="button" id="btn-etc" class="btn2 btn-gray">퀴즈,기타,과제 On/ Off</button>
       </div>
     </div>
 `);
@@ -72,6 +77,39 @@ export default () => {
     alert('2분 쿨타임이 제거되었습니다.');
   });
 
+  //역순 배열
+  $('#btn-reverse-lecture').click(() => {
+    if (appModule.listBackup) {
+      appModule.list = appModule.listBackup;
+      appModule.listBackup = undefined;
+    }
+    else {
+      appModule.listBackup = appModule.list;
+      appModule.list = appModule.list.filter(v => { if (v.evltnSe === 'lesson') return v; });
+      appModule.list.reverse();
+    }
+
+
+    $('#btn-reverse-lecture').toggleClass('btn-gray');
+    $('#btn-reverse-lecture').toggleClass('btn-green');
+  });
+
+  //퀴즈,자료,과제
+  $('#btn-etc').click(() => {
+    if (appModule.listBackup) {
+      appModule.list = appModule.listBackup;
+      appModule.listBackup = undefined;
+    }
+    else {
+      appModule.listBackup = appModule.list;
+      appModule.list = appModule.list.filter(v => { if (v.evltnSe !== 'lesson' && v.totAchivTime !== v.totRcognTime) return v; });
+    }
+
+
+    $('#btn-etc').toggleClass('btn-gray');
+    $('#btn-etc').toggleClass('btn-green');
+  });
+
   // 강의 숨기기 버튼에 이벤트 설정
   $('#btn-hide-lecture').click(() => {
     if (appModule.listBackup) {
@@ -80,7 +118,7 @@ export default () => {
     }
     else {
       appModule.listBackup = appModule.list;
-      appModule.list = appModule.list.filter(v => { if (v.prog !== 100) return v; });
+      appModule.list = appModule.list.filter(v => { if (v.prog !== 100 && v.evltnSe == 'lesson') return v; });
     }
 
     $('#btn-hide-lecture').toggleClass('btn-gray');
