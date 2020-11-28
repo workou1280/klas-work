@@ -82,14 +82,14 @@
    3. 날짜 : 오늘의 날짜가 업로드 됨
    4. 클릭기능 : [학사일정]을 클릭하면 학교 홈페이지 학사일정으로 넘어가짐
    ## 4.메모 버튼 구현
-   메모 버튼 화면
-   <img width="60%" src='http://drive.google.com/uc?export=view&id=1LbEq9-eKC35iBt7sooWFx3ZX-Rd5Zz4c' /><br>
-   파일 쓰고 다운 받음 
-   <img width="30%" src='http://drive.google.com/uc?export=view&id=18tW7ox3IzJE-KgprTUsnaS6flbZVA-aY' /><br>
-   업로드 버튼을 누르고 다시 업로드
-   <img width="50%" src='http://drive.google.com/uc?export=view&id=1VRXTVA-Yd08e2GU6IU21iHRhK6JX8fYX' /><br>
-   메모창에 업로드한 파일 프린트 
-   <img width="60%" src='http://drive.google.com/uc?export=view&id=1gjb0NUtwgxMfVrEEGQz5RY8qM8PyzCzz' /><br>
+   메모 버튼 화면<br>
+   <img width="60%" src='http://drive.google.com/uc?export=view&id=1LbEq9-eKC35iBt7sooWFx3ZX-Rd5Zz4c' /><br><br>
+   파일 쓰고 다운 받음<br>
+   <img width="30%" src='http://drive.google.com/uc?export=view&id=18tW7ox3IzJE-KgprTUsnaS6flbZVA-aY' /><br><br>
+   업로드 버튼을 누르고 다시 업로드<br><
+   <img width="50%" src='http://drive.google.com/uc?export=view&id=1VRXTVA-Yd08e2GU6IU21iHRhK6JX8fYX' /><br><br>
+   메모창에 업로드한 파일 프린트<br>
+   <img width="60%" src='http://drive.google.com/uc?export=view&id=1gjb0NUtwgxMfVrEEGQz5RY8qM8PyzCzz' /><br><br>
    설명 
    1. 메모 버튼 : 말 그대로 메모 할 수 있는 기능 홈에서만 사용가능, 한 번 더 클릭학면 끌 수 있음
    2. 입력 및 다운 기능 : 메모칸에 입력을 하면 텍스트 파일로 다운 받을 수 있음
@@ -99,5 +99,18 @@
    <img width="60%" src='http://drive.google.com/uc?export=view&id=1DfVeokOnYRFvDL8_ny3gPePtatpTxx--' /><br>
    설명 
    1. 과대 버튼 : 클릭하면 과대 박스가 뜨면서 그 버튼을 누르면 각 과대 홈페이지로 갈 수 있음, 한 번 더 클릭하면 끌 수 있음
+   
+## 개선된 기능 강의 홈에 추가된 기능
+   ## 1.강의 홈 강의 숨기기 on/off
+   <img width="60%" src='http://drive.google.com/uc?export=view&id=13DRzcjRd5jTYfSHAdw_CVnQytOsVBi9U' /><br>
+   설명
+   1. 기존 불편했던 점 : 기존에 다 들었던 강의만 지워지고 퀴즈나 과제가 남아 결국 아래로 내려야하는 불편함
+   2. 개선 : 다들은 강의가 살아지는 것과 더불어 나머지 퀴즈 과제 기타 등을 모두 지움
+   ## 2.강의 역순배열 on/off
+   <img width="60%" src='http://drive.google.com/uc?export=view&id=1xDimXWEF04j9VmkGLnDWMHoLPtZd_ZwF' /><br>
+   1. 새롭게 만듬 : 강의만 역순으로 배열
+   ## 3.퀴즈,기타,과제 on/off
+   <img width="60%" src='http://drive.google.com/uc?export=view&id=1kBo7TjpMbHGb5QHkT1mFFPXa5hzikDvh' /><br>
+   1. 새롭게 만듬 : 달성하지 못한 퀴즈,기타,과제 만을 보여줌
    
   
