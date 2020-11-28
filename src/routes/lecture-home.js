@@ -5,6 +5,7 @@
 
 export default () => {
   // 인증 팝업 무시
+  // 인증 팝업 무시
   lrnCerti.certiCheck = function (grcode, subj, year, hakgi, bunban, module, lesson, oid, starting, contentsType, weeklyseq, weeklysubseq, width, height, today, sdate, edate, ptype, totalTime, prog, gubun) {
     console.log(grcode, subj, year, hakgi, bunban, module, lesson, oid, starting, contentsType, weeklyseq, weeklysubseq, width, height, today, sdate, edate, ptype, totalTime, prog, gubun);
     this.grcode = grcode;
@@ -17,10 +18,12 @@ export default () => {
       }.bind(this));
   };
 
+
   // 2분 쿨타임 제거, 강의 숨기기 버튼 생성
   $("p:contains('온라인 강의리스트')").append(`
     <button type="button" class="btn2 btn-learn btn-cooltime">2분 쿨타임 제거</button>
     <button type="button" class="btn2 btn-gray btn-clean">강의 숨기기 On / Off</button>
+    <button type="button" class="btn2 btn-gray btn-reverse-lecture">강의 역순배열 On/ Off</button>
   `);
 
   // 2분 쿨타임 제거 버튼에 이벤트 설정
@@ -65,6 +68,13 @@ export default () => {
 
     $('.btn-clean').toggleClass('btn-green');
     $('.btn-clean').toggleClass('btn-gray');
+  });
+
+  //역순 배열
+  $('.btn-reverse-lecture').click(() => {
+      appModule.cntntList.reverse();
+    $('.btn-reverse-lecture').toggleClass('btn-gray');
+    $('.btn-reverse-lecture').toggleClass('btn-green');
   });
 
   // 과목 변경시 강의 숨기기 초기화
