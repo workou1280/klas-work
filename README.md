@@ -1,3 +1,4 @@
+## 학교 수업용으로 작성한 프로젝트(어떠한 개인적 이득을 위한 목적 없음)위 사이트에 있는 코드를 가져가서 개인적 목적으로 사용하다 부담하게 되는 불이익에 대한 책임은 사용자에게 있음을 명시한다.
 # 🎠 KLAS Helper
 
 [Korean](https://github.com/nbsp1221/klas-helper) | [English](https://github.com/nbsp1221/klas-helper/blob/master/README-EN.md)
