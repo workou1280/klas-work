@@ -82,12 +82,13 @@
    3. 날짜 : 오늘의 날짜가 업로드 됨
    4. 클릭기능 : [학사일정]을 클릭하면 학교 홈페이지 학사일정으로 넘어가짐
    ## 4.메모 버튼 구현
+   메모 버튼 화면
    <img width="60%" src='http://drive.google.com/uc?export=view&id=1LbEq9-eKC35iBt7sooWFx3ZX-Rd5Zz4c' /><br>
-   
+   파일 쓰고 다운 받음 
    <img width="30%" src='http://drive.google.com/uc?export=view&id=18tW7ox3IzJE-KgprTUsnaS6flbZVA-aY' /><br>
-   
+   업로드 버튼을 누르고 다시 업로드
    <img width="50%" src='http://drive.google.com/uc?export=view&id=1VRXTVA-Yd08e2GU6IU21iHRhK6JX8fYX' /><br>
-   
+   메모창에 업로드한 파일 프린트 
    <img width="60%" src='http://drive.google.com/uc?export=view&id=1gjb0NUtwgxMfVrEEGQz5RY8qM8PyzCzz' /><br>
    설명 
    1. 메모 버튼 : 말 그대로 메모 할 수 있는 기능 홈에서만 사용가능, 한 번 더 클릭학면 끌 수 있음
